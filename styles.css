@@ -1,0 +1,67 @@
+body {
+    background: #bfefe9;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+.calculator {
+    width: 360px;
+    height: 525px;
+    margin: 100px auto;
+}
+
+h1 {
+    background: #084466;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.form {
+    background: white;
+    border-radius: 20px;
+    height: 100%;  
+}
+
+form input {
+    width: 160px;
+    margin: 5px 95px 30px 90px;
+    padding: 5px;
+}
+
+form label {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+form select {
+    width: 160px;
+    margin: 5px 95px 30px 90px;
+    padding: 5px;
+}
+
+.submit {
+    width: 160px;
+    background: #00a898;
+    color: white;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 24px;
+    margin: 10px 100px;
+}
+
+.submit:hover {
+    background: #00756a;
+  }
+
+#tipResult {
+    position: relative;
+    top: -230px;
+    margin: auto;
+    padding: 20px;
+    width: 160px;
+    text-align: center;
+}
